@@ -1,6 +1,0 @@
-minimumReleaseAge: 10080
-minimumReleaseAgeExclude:
-  - "@supabase/*"
-blockExoticSubdeps: true
-allowBuilds:
-  esbuild: true
