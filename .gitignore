@@ -1,0 +1,11 @@
+.env
+logs/
+__pycache__/
+*.db
+.agents/
+.gemini/
+*.pyc
+
+# Gmail OAuth files (never commit secrets)
+config/gmail_credentials.json
+config/gmail_token.json

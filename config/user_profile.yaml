@@ -1,0 +1,103 @@
+# User Profile & Job Search Agent Preferences Configuration
+
+user:
+  name: "Saurabh Yadav"
+  email: "saurabh.yadav.placeholder@example.com"
+  whatsapp: "+910000000000"
+  batch: 2027
+  degree: "B.Tech CSE — AI-Driven Language Technology"
+  cgpa: 9.61
+  experience_years: 0
+
+preferences:
+  experience_max: 1
+  roles:
+    - "Software Engineer"
+    - "ML Engineer"
+    - "AI Engineer"
+    - "AI/ML Engineer"
+    - "NLP Engineer"
+    - "Data Scientist"
+    - "Deep Learning Engineer"
+    - "Generative AI"
+  locations:
+    - "Bangalore"
+    - "Bengaluru"
+    - "Gurugram"
+    - "Gurgaon"
+    - "Greater Noida"
+    - "Noida"
+    - "Hyderabad"
+    - "Pune"
+    - "Remote"
+  skills:
+    - "Python"
+    - "Java"
+    - "SQL"
+    - "TensorFlow"
+    - "PyTorch"
+    - "Keras"
+    - "Scikit-learn"
+    - "SpaCy"
+    - "NLP"
+    - "RAG"
+    - "LLMs"
+    - "Prompt Engineering"
+    - "FastAPI"
+    - "REST APIs"
+    - "React.js"
+    - "AWS SageMaker"
+    - "Git"
+
+matching:
+  role_keywords_include:
+    - "ai"
+    - "ml"
+    - "nlp"
+    - "software engineer"
+    - "software developer"
+    - "machine learning"
+    - "data scientist"
+    - "data science"
+    - "deep learning"
+    - "natural language processing"
+    - "generative ai"
+    - "gen ai"
+    - "llm"
+    - "rag"
+  exclude_keywords:
+    - "senior"
+    - "lead"
+    - "manager"
+    - "director"
+    - "5+ years"
+    - "6+ years"
+    - "7+ years"
+    - "8+ years"
+    - "principal"
+    - "architect"
+    - "head"
+    - "sr."
+    - "sr"
+
+companies:
+  ibm:
+    name: "IBM"
+    url: "https://careers.ibm.com/api/jobs?country=IN&keywords=AI"
+    enabled: true
+  infosys:
+    name: "Infosys"
+    url: "https://career.infosys.com/joblist"
+    enabled: true
+  genpact:
+    name: "Genpact"
+    url: "https://genpact.wd108.myworkdayjobs.com/wday/cxs/genpact/External_Careers/jobs"
+    enabled: true
+  delhivery:
+    name: "Delhivery"
+    url: "https://jobs.lever.co/delhivery"
+    enabled: true
+  zscaler:
+    name: "Zscaler"
+    url: "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs"
+    enabled: true
